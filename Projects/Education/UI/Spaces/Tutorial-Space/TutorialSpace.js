@@ -396,24 +396,24 @@ function newEducationTutorialSpace() {
                 */
                 return
             }
-            if (config.workspaces === "" || config.workspaces === "Close") {
+            // if (config.workspaces === "" || config.workspaces === "Close") {
                 /*
                 This forces the tutorial to close the workspaces panel and to keep it closed.
                 */
-                if (workspacesCounter === 5) {
-                    UI.projects.workspaces.spaces.workspaceSpace.sidePanelTab.close()
-                }
-                return
-            }
-            if (config.workspaces === "Open") {
+                // if (workspacesCounter === 5) {
+                    // UI.projects.workspaces.spaces.workspaceSpace.sidePanelTab.close()
+            //     }
+            //     return
+            // }
+            // if (config.workspaces === "Open") {
                 /*
                 This forces the tutorial to open the workspaces panel and to keep it closed.
                 */
-                if (workspacesCounter === 5) {
-                    UI.projects.workspaces.spaces.workspaceSpace.sidePanelTab.open()
-                }
-                return
-            }
+                // if (workspacesCounter === 5) {
+                    // UI.projects.workspaces.spaces.workspaceSpace.sidePanelTab.open()
+            //     }
+            //     return
+            // }
         }
 
         function checkSlider() {
